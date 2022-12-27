@@ -1,0 +1,100 @@
+/* /* * {
+    box-sizing: content-box;
+    background-color: antiquewhite;
+} */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    background-color: rgb(246, 219, 183);
+}
+
+.container {
+    padding: 5px 20px 15px 20px;
+    background-color: rgb(240, 176, 152);
+    border: 3px solid rgb(246, 203, 152);
+    border-radius: 6px;
+}
+
+.pre {
+    text-align: center;
+    font-size: 10px;
+}
+
+.makeup_type {
+    width: 25cm;
+}
+
+.select {
+    text-align: center;
+}
+
+.card {
+    padding-top: 10px;
+}
+
+.card_type {
+    width: 30cm;
+}
+
+textarea {
+    width: 97%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+
+select {
+    width: 30%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: rgb(252, 227, 217);
+}
+
+fieldset {
+    width: 40%;
+    background-color: rgb(252, 227, 217);
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.second_heading {
+    padding-top: 5px;
+}
+
+.align {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.done {
+    font-size: 22px;
+    color: white;
+    background-color: coral;
+    width: 58px;
+    height: 55px;
+    border: 0px solid black;
+    border-radius: 50%;
+}
+
+.done:hover {
+    background-color: rgb(244, 109, 60);
+    cursor: pointer;
+    color: rgb(53, 51, 51);
+}
